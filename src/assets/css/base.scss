@@ -1,0 +1,230 @@
+// COLOR VARIABLES
+$text-color: #7b809a;
+$white-color: #ffffff;
+$black-color: #000000;
+$primary-color: #247cd4;
+$secondary-color: #e9f7ff;
+$error-color: #e91e63;
+$success-color: #4caf50;
+$warning-color: #fb8c00;
+$red-color: #d70200;
+$light-color: #f0f2f5;
+$dark-color: #344767;
+
+$white-hover-color: #ebe8e8;
+$black-hover-color: #535252;
+$primary-hover-color: #3776c7;
+$error-hover-color: #dd4376;
+$success-hover-color: #58b15d;
+$warning-hover-color: #db9744;
+$red-hover-color: #ce2927;
+$light-hover-color: #d5d6d6;
+$dark-hover-color: #505e77;
+
+.text-color {
+  color: $text-color;
+}
+
+.white-color {
+  color: $white-color;
+}
+
+.black-color {
+  color: $black-color;
+}
+
+.red-color {
+  color: $red-color;
+}
+
+.primary-color {
+  color: $primary-color;
+}
+
+.success-color {
+  color: $success-color;
+}
+
+.warning-color {
+  color: $warning-color;
+}
+
+.error-color {
+  color: $error-color;
+}
+
+.light-color {
+  color: $light-color;
+}
+
+.dark-color {
+  color: $dark-color;
+}
+
+// Background-color
+.bg-white-color {
+  background-color: $white-color;
+}
+
+.bg-black-color {
+  background-color: $black-color;
+}
+
+.bg-red-color {
+  background-color: $red-color;
+}
+
+.bg-primary-color {
+  background-color: $primary-color;
+}
+
+.bg-success-color {
+  background-color: $success-color;
+}
+
+.bg-warning-color {
+  background-color: $warning-color;
+}
+
+.bg-error-color {
+  background-color: $error-color;
+}
+
+.bg-light-color {
+  background-color: $light-color;
+}
+
+.bg-dark-color {
+  background-color: $dark-color;
+}
+
+.animation-button {
+  transition: all 0.3s linear;
+}
+
+.no-hover-table:hover {
+  background-color: unset !important;
+}
+
+.cell-hover:hover {
+  background-color: #eaeaea !important;
+  transition: all 0.3s ease-in !important;
+}
+
+.text-base {
+  font-size: 14px;
+}
+
+.max-line-2 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2; /* Limit to 3 lines */
+}
+.max-line-3 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 3; /* Limit to 3 lines */
+  word-wrap: break-word; /* Break long words */
+  word-break: break-all; /* Ensure content wraps within the container */
+}
+.max-line-4 {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 4; /* Limit to 4 lines */
+}
+.text-container {
+  width: 100%; /* Ensure the container takes full width */
+  max-width: 98%; /* Set a max-width to avoid overflow */
+  box-sizing: border-box; /* Include padding and border in width */
+  padding-right: 1rem; /* Add some padding for better spacing */
+  overflow-x: hidden; /* Hide horizontal overflow */
+}
+.animate-new {
+  animation: scaleObject 0.8s ease-in alternate infinite;
+}
+
+@keyframes scaleObject {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.1);
+  }
+}
+
+.css-qh1700-MuiListItemText-root span {
+  font-weight: 500 !important;
+}
+
+.css-1vos75v {
+  color: #344767 !important;
+}
+
+.css-irbhzg-MuiDrawer-docked .MuiDrawer-paper {
+  background: #ffffff;
+}
+
+.Toastify__toast-body {
+  font-size: 14px !important;
+}
+
+.quill-editor {
+  height: 500px !important;
+}
+
+.min-h-full {
+  min-height: 578px !important;
+}
+
+.min-w-fit-table {
+  min-width: 500px !important;
+}
+
+.h-10-5 {
+  height: 40px;
+}
+
+@media (max-width: 992px) {
+  .css-7qqlnw-MuiListItemIcon-root,
+  .css-qh1700-MuiListItemText-root span,
+  .css-mvs481 {
+    color: $dark-color !important;
+  }
+  a.font-bold.active {
+    li {
+      > div {
+        > div span {
+          color: $white-color !important;
+        }
+      }
+    }
+  }
+}
+
+.mt-3-ipt {
+  margin-top: 12px !important;
+}
+.custom-toast {
+  z-index: 1200 !important;
+}
+
+.css-10xeiu1-MuiPaper-root-MuiAppBar-root,
+.css-1jlgw5i {
+  z-index: 10 !important;
+}
+
+@media (min-width: 1900px) {
+  .css-10wg2pg-MuiDrawer-docked .MuiDrawer-paper {
+    display: none !important;
+  }
+}
+
+.hidden-ipt {
+  display: none !important;
+}

@@ -1,0 +1,11 @@
+export const API_HOST = "https://b8js9fj9-5000.asse.devtunnels.ms/api";
+export const ORB_HOST = "https://orbapi.click";
+export const STUDENT_ROLE = "Student";
+export const SUBJECT_ROLE = "Subject Teacher";
+export const HOMEROOM_ROLE = "Homeroom Teacher";
+export const HEADTEACHER_ROLE = "Headteacher";
+export const PRINCIPAL_ROLE = "Admin";
+export const LOGO_IMAGE = "schoolLogo";
+export const SCHOOL_SLIDER_1 = "schoolSlider1";
+export const SCHOOL_SLIDER_2 = "schoolSlider2";
+export const SCHOOL_SLIDER_3 = "schoolSlider3";
